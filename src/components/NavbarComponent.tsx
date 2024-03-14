@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom';
 
 function NavbarComponent() {
   return (
-    <Navbar>
+    <Navbar className='bg-yellow-200'>
       <NavbarBrand>
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Interesting Jobs</span>
+        <span className="font-serif self-center whitespace-nowrap text-xl font-semibold dark:text-white">Interesting Jobs</span>
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse>
-        <NavbarLink as={Link} to='/'>Home</NavbarLink>
-        <NavbarLink as={Link} to='/pageTwo'> First Page</NavbarLink>
-        <NavbarLink as={Link} to='/pageTwo'> Second Page</NavbarLink>
-        <NavbarLink as={Link} to='/pageThree'>Third Page</NavbarLink>
-        <NavbarLink as={Link} to='/pageFour'>Fourth Page</NavbarLink>
-        <NavbarLink as={Link} to='/pageFive'>Fifth Page</NavbarLink>
+        <NavbarLink className='text-black font-serif' as={Link} to='/'>Home</NavbarLink>
+        <NavbarLink className='text-black font-serif' as={Link} to='/carnegie'>Carnegie</NavbarLink>
+        <NavbarLink className='text-black font-serif' as={Link} to='/ofv'>OFV</NavbarLink>
+        <NavbarLink className='text-black font-serif' as={Link} to='/evvent'>Evvent</NavbarLink>
+        <NavbarLink className='text-black font-serif' as={Link} to='/goit'>GroupOne IT</NavbarLink>
+        <NavbarLink className='text-black font-serif' as={Link} to='/paccoast'>Pacific Coast Companies</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );

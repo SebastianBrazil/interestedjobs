@@ -15,11 +15,11 @@ function App() {
       <NavbarComponent/>
       <Routes>
         <Route path='/' element={<HomePageComponent/>}/>
-        <Route path='/' element={<OnePage/>}/>
-        <Route path='/' element={<TwoPage/>}/>
-        <Route path='/' element={<ThreePage/>}/>
-        <Route path='/' element={<FourPage/>}/>
-        <Route path='/' element={<FivePage/>}/>
+        <Route path='carnegie' element={<OnePage/>}/>
+        <Route path='ofv' element={<TwoPage/>}/>
+        <Route path='evvent' element={<ThreePage/>}/>
+        <Route path='goit' element={<FourPage/>}/>
+        <Route path='paccoast' element={<FivePage/>}/>
       </Routes>
     </BrowserRouter>
   );
