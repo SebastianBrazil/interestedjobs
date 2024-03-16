@@ -18,20 +18,20 @@ const TwoPage = () => {
 
         <div className='flex justify-center'>
           <div className='w-8/12'>
-            <p className='text-white font-serif text-2xl mt-10 text-justify'>First job listing, and it's a Norwegian-based company. Carnegie is an investment bank that invests into infastructure and technology. The job itself is dedicated to solving technical problems, as well as assisting with daily operations of systems. This is where the company's technologies come in; Carnegie uses Windows, Linux, and VMware. Those technologies would require adequate knowledge of C#, C, and Java. The latter two, I have no experience with, so I would need to learn those languages. From the initial starting point, my goal would be to advance more into data management and continue working on Linux and virtual machines. The job offerings are quite vauge, however, showing no potential pay or stated benefits. This will be common on all Norwegian jobs, they just do hiring differently. The main draw for me is that its a job with relatively low entry requirements in a country that requires a job to apply for residency.</p>
+            <p className='text-white font-serif text-2xl mt-10 text-justify'>The Information Council For Road Traffic, or OFV, has an IT position open similar to that of Carnegie's. Same as before, vague job offerings, with the main reason I want to apply is that its in Norway. Here, one of the assigned tasks would be Windows scripting as well as documentation through Jira. The job also requires knowledge of SQL and C#. And the Norwegian language too but that's besides the point. While I haven't touched Jira yet, I will have already used it by the time I graduate, and I do have experience with C# and SQL, even if limited. This is a job position I am mostly qualified for. If I did get this job, my goal would probably further my experience in windows scripting and use my SQL knowledge to possibly move into backend development.</p>
             <div className='mt-10'>
-              <a className='text-white font-serif text-2xl' target="_blank" rel="noreferrer" href='https://ofv.no'>Link to Carnegie's Website</a>
+              <a className='underline text-white font-serif text-2xl' target="_blank" rel="noreferrer" href='https://ofv.no'>Link to OFV's Website</a>
             </div>
             <div>
-              <a className='text-white font-serif text-2xl' target="_blank" rel="noreferrer" href='https://arbeidsplassen.nav.no/stillinger/stilling/6feb5d11-8684-4d63-9a28-b32879f1c492'>Link to Carnegie's Job Listing</a>
+              <a className='underline text-white font-serif text-2xl' target="_blank" rel="noreferrer" href='https://arbeidsplassen.nav.no/stillinger/stilling/6feb5d11-8684-4d63-9a28-b32879f1c492'>Link to OFV's Job Listing</a>
             </div>
           </div>
         </div>
       </div>
 
       <div className='flex justify-center pb-10'>
-        <button onClick={changePageBack} className='bg-yellow-200 mx-5 p-5 w-80 rounded-2xl mt-56 font-serif'>Go back to the first listing</button>
-        <button onClick={changePageForward} className='bg-yellow-200 mx-5 p-5 w-80 rounded-2xl mt-56 font-serif'>Check out the third job listing</button>
+        <button onClick={changePageBack} className='bg-yellow-200 mx-5 p-5 w-80 rounded-2xl mt-10 font-serif'>Go back to the first listing</button>
+        <button onClick={changePageForward} className='bg-yellow-200 mx-5 p-5 w-80 rounded-2xl mt-10 font-serif'>Check out the third job listing</button>
       </div>
     </div>
   )
