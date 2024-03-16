@@ -19,3 +19,7 @@ code {
 .bgImg{
   background-image: url(./assets/Ocean-underwater-light-wallpaper-hd.png);
 }
+
+.bgT{
+  background: rgba(0, 0, 0, 0.4)
+}
